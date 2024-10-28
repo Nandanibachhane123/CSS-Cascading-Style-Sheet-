@@ -1,0 +1,49 @@
+/* h1 { 
+     color:green; } */
+/* p{
+    color:rgb(124, 250, 137)
+} */
+button{
+    color:chartreuse
+}
+botton{
+    background-color: rgb(131, 231, 131);
+}
+body{
+    background-color: #ffff00
+}
+/* universal selectors
+    same for all
+   *{ color:pink
+   } */
+
+   /* element selector 
+     particular change on one thing
+     h1{color:read-only
+       }
+       */
+
+       /* id selector
+         same name id give same color or
+         change 
+         #handing one {color:yellow
+          }*/
+          
+
+          p{
+            text-align: left;
+          }
+          h1{
+            text-align: center;
+            text-decoration: red underline;
+            /* text-decoration: overline; */
+            /* text-decoration: line-through; */
+          }
+          a{
+            text-decoration: none;/* remove line*/
+          }
+          #nan{
+            font-size:25px;
+            line-height: 25px;
+
+          }
