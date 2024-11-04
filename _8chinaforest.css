@@ -1,0 +1,132 @@
+body 
+{
+       background-image: url('chinaimage.png');
+       background-repeat: no-repeat;
+       background-size: cover;
+       /*background-attachment: fixed;/
+       overflow: hidden;
+       margin:0%;
+       padding: 0%;*/
+}
+.parent
+{
+  
+    display: flex;
+
+    /* box-sizing: border-box; */
+}
+.blur
+{
+    background-color: rgba(53, 75, 57, 0.668); 
+    width: 50%;
+    height: 1000px;
+    margin-left: 0%;
+    padding-left:0%;
+    backdrop-filter: blur(10px); 
+/* 
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    /* backdrop-filter: blur(10px); Apply blur effect */
+}
+   
+
+nav li
+{
+    color: #fff;
+    display: inline;
+}
+nav li h2
+{
+    margin-top: 0;
+    margin-left: 40px;
+    display: inline;
+    margin:50px;
+    font-size: 2.5em;
+}
+h1
+{
+    color: #fff;
+    margin-left: 13%;
+     
+}
+nav li i
+{
+    border: 5px solid white;
+    padding: 15px;
+    margin: 3px;
+    border-radius: 10%;
+   
+}
+footer
+{
+    margin-top: 60%;
+    color: white;
+    width: 70%;
+    
+}
+footer p
+{
+    padding-left: 60px;
+    font-size: 22px;
+}
+
+button
+{
+padding: 15px;
+border-radius: 5px;
+margin-left: 60px;
+}
+button:hover{
+    color:green;
+    background:darkgrey ;
+}
+.three li
+{
+    color: #fff;
+    font-size: 25px;
+    padding: 30px;
+    display: flex;
+    float:left;
+    margin-top:0;
+    margin-left: 10px;
+    padding-top: 0;
+}
+.three li:hover{
+    color:green;
+    text-decoration: underline;
+}
+.India
+{
+    color:transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: url('chinaimage.png');
+    -webkit-text-stroke: 1.5px white;
+    float:left;
+    margin-left: 80%;
+    margin-top: 20%;
+    font-size: 10.5em;
+  
+}
+.dia
+{
+    color: #fff;
+    float:left;
+    margin-top: 26%;
+    font-size: 10.5em;
+
+}
+span{
+    color: #fff;
+
+    display: flex;
+    font-size:100px;
+    
+   
+
+}
