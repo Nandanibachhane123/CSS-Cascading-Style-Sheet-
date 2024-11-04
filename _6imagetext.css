@@ -1,0 +1,9 @@
+body{
+    margin:15;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box{
+    float: left;
+    margin-right: 15px;
+}
