@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model,margin padding</title>
+     <style>
+     .container{
+        background-color: rgb(231,230,241);
+        border:3px solid rgb(64,6,119);
+        
+        /* we can set padding  for top,buttom,left and right like this*/
+        /* paddind:79px;/* uder the box use  padding*/
+        /* padding-top: 70px;
+        padding-right:34px;
+        padding-bottom:34px;
+        padding-left:24; */
+
+       /* padding:23px 56px 6px 10px;*//* padding= top riht bottom left*/
+        padding:34px 19px;/*  y(top/bottom)  x(top/buttom)  */
+       
+       margin:34px;/* margin use to space between two tags or contant 
+                     bahar see*/
+        /* jab hum padding badayege to width bhi bdegi es liye hum ye property use karege */
+        box-sizing: border-box;
+
+        
+
+        
+
+     }
+     </style>
+
+
+</head>
+<body>
+    <div class="container">
+    <h1>This is hesding</h1>
+    <p id="first">Lorem ipsum dolor sit amet consectetur, 
+        adipisicing elit. Iusto blanditiis eos hic dolorem
+         omnis a expedita ullam fugit, vel, sapiente autem. 
+         Odit veniam asperiores reiciendis corrupti sed.</p>
+       </div>
+
+       <div class="container">
+        <h1>This is hesding</h1>
+        <p id="second">Lorem ipsum dolor sit amet consectetur, 
+            adipisicing elit. Iusto blanditiis eos hic dolorem
+             omnis a expedita ullam fugit, vel, sapiente autem at. 
+             Odit veniam asperiores reiciendis corrupti sed.</p>
+           </div>
+    
+           <div  class="container">
+            <h1>This is hesding</h1>
+            <p id="third">Lorem ipsum dolor sit amet consectetur, 
+                adipisicing elit. Iusto blanditiis eos hic dolorem
+                 omnis a expedita ullam fugit, vel, sapiente autem at . 
+                 Odit veniam asperiores reiciendis corrupti sed.</p>
+               </div>
+        
+
+
+        </body>
+</html>
+
